@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hint1">enter email address</string>
+    <string name="hint2">enter password</string>
+    <string name="login">log in</string>
+    <string name="signup">join</string>
+    <string name="signout">sign out</string>
+    <string name="reset">reset</string>
+    <string name="forgot">forgot password? Try Resetting!</string>
+    <string name="register">Not on app? Register now!</string>
+
+
+</resources>

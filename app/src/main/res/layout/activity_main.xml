@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint1"
+            android:inputType="textEmailAddress"
+            android:id="@+id/mailed"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint2"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/mailed"
+            android:id="@+id/pwded"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/pwded"
+            android:layout_marginTop="10dp"
+            android:text="@string/login"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/signup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/googleButton">
+
+        </com.google.android.gms.common.SignInButton>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newUser"
+        android:layout_below="@id/parent"
+        android:layout_centerHorizontal="true"
+        android:text="@string/register"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot"
+        android:layout_below="@id/newUser"
+        android:layout_centerHorizontal="true"
+        android:text="@string/forgot"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
