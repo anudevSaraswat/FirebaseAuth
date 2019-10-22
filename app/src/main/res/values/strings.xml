@@ -1,13 +1,22 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="hint1">enter email address</string>
-    <string name="hint2">enter password</string>
+    <string name="name_hint">name</string>
+    <string name="address_hint">select address</string>
+    <string name="otp_hint">otp</string>
+    <string name="mail_hint">email address</string>
+    <string name="number_hint">number</string>
+    <string name="password_hint">enter password</string>
     <string name="login">log in</string>
     <string name="signup">join</string>
     <string name="signout">sign out</string>
+    <string name="verify_hint">verify</string>
     <string name="reset">reset</string>
+    <string name="map_api_key">AIzaSyAkmlG6ocqawkUjIRpFVqSbHAPLj2VZ65I</string>
     <string name="forgot">forgot password? Try Resetting!</string>
     <string name="register">Not on app? Register now!</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>

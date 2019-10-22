@@ -17,14 +17,12 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint1"
             android:inputType="textEmailAddress"
             android:id="@+id/mailed"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint2"
             android:inputType="textPassword"
             android:layout_marginTop="10dp"
             android:layout_below="@id/mailed"
